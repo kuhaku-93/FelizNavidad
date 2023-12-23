@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>♥ Feliz Navidad ♥</title>
+    <style>
+        .body {
+            background-color: rgb(75, 11, 6);
+            text-align: center;
+        } 
+
+        .body__title {
+            color: white;
+        }
+
+        .body__img {
+            width: 100%;
+            border-radius: 10%;
+        }
+    </style>
+</head>
+<body class="body">
+  <h1 class="body__title">♥ Feliz Navidad ♥</h1>
+  <img src="https://play-lh.googleusercontent.com/Fz36LmPYKti3IE9pdxgrviYrOKu4eTrXS4MsP-vVpOc-lx1nhdKH6KPwgPbzmJO7sk6Z" alt="love" class="body__img" /> 
+  <button id="yey">♥ PUSH ♥</button> 
+
+  <script>
+    const vutonPUSH = document.getElementById('yey');
+
+    const amor = () => {
+        alert('♥ FELIZ NAVIDAD, MI VIDA ♥');
+        alert('♥ TE AMO CON TODO MI SER, MI CHIQUITA LINDA ♥');
+        location.href = 'https://www.youtube.com/watch?v=bhJVyEoXQd8'
+    };
+    vutonPUSH.addEventListener('click', amor);
+  </script>
+</body>
+</html>
